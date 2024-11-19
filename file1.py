@@ -31,6 +31,9 @@ for w in s.split(' '):
 # dictionary: list with a string associated to each item
 
 #METHODS:
-#number of items: len(x)
-#loop over items: for element in x: ...
-#check if a item is in the list: element in x
+# number of items: len(my_list)
+# loop over items: for element in my_list: ...
+# check if a item is in the list: element in my_list
+# get the ith element: my_list[i]
+# get the sublist from element ith to jth: my_list[i:j]
+# take only one element every n until j: my_list[i:j:n] ( elements of index i + p × n until j, with p = 0, 1, 2, ...)
