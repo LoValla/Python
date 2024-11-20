@@ -3,7 +3,6 @@ y = 25.2  # float
 z1 = 2.3 + 0.5j  # complex
 z2 = 1.8 + 3.1j  # complex
 
-
 print(f"x = {x} and y = {y}")  # only for new python versions
 print("x = {} and y = {}".format(x, y))  # general use
 
