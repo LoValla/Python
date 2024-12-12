@@ -1,7 +1,7 @@
 f = open(
     "my_file_name.txt", "w"
 )  # r = read, w = write, a = append lines at the end, x = create new
-f.write("Write this line of text. And this second sentence. And the third one.")
+f.write("Write this line of text. And this second sentence. And the third one. \nThis line has only one sentence.")
 f.close()
 
 f = open(
@@ -43,7 +43,7 @@ print(features)
 
 # Loop over lines and store the information
 data = []
-for l in f:  # since I used readline() above, l starts from the first data row
+for l in f:  # since I used readline() above, l starts from the data row number 1 (not 0)
     values = l.strip().split(",")
     print(values)
     data_single_line = {var: val for var, val in zip(features, values)}

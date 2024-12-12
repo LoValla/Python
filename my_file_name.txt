@@ -1,1 +1,2 @@
-Write this line of text. And this second sentence. And the third one.
+Write this line of text. And this second sentence. And the third one. 
+This line has only one sentence.
